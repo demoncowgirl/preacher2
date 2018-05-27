@@ -1,8 +1,0 @@
-
-// import fonts from google fonts
-@import url('https://fonts.googleapis.com/css?family=Eater|Modern+Antiqua|Raleway|Special+Elite');
-
-// Import all of Bootstrap
-@import "node_modules/bootstrap/scss/bootstrap";
-
-$body-bg: silver;

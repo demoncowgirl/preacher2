@@ -13,32 +13,29 @@ var runSequence = require('run-sequence');
 
 // task to copy all htm/html files from app directory to dist directory
 gulp.task('copyhtml', function() {
-  log("Copying htm/html files from app directory to dist directory");
   return gulp.src('app/**/*.+(htm|html)')
 	.pipe(gulp.dest('dist/'))
  });
 
 // task to copy all css files from app directory to dist directory
 gulp.task('copycss', function() {
-    log("Copying css files from app directory to dist directory");
-	return gulp.src('app/css/**/*.css')
+	return gulp.src('app/style/**/*.css')
 		.pipe(gulp.dest('dist/css/'))
 });
 
 // function to change sass code to css
 gulp.task('sass', function() {
-    log("Changing sass files to css files");
-	return gulp.src('app/css/*.scss')
+	return gulp.src('app/style/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/css/'))
 });
 
 // function to trigger the copy function when new html files are
 // added to the app file
-gulp.task('watch', function() {
-  log("Watching html files for modifications");
-	gulp.watch('app/**/*', ['copyhtml', 'copycss' 'sass'])
-});
+//gulp.task('watch', function() {
+  //log("Watching html files for modifications");
+	//gulp.watch('app/**/*', ['copyhtml', 'copycss' 'sass'])
+//});
 
 
 gulp.task('default', function(callback) {
