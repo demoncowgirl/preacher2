@@ -1,10 +1,22 @@
 // import fonts from google fonts
 @import url('https://fonts.googleapis.com/css?family=Modern+Antiqua|Raleway|Special+Elite');
 
-// Import all of Bootstrap
-@import "node_modules/bootstrap/scss/bootstrap";
-
 // Change Bootstrap variables
     $font-family-base: 'Raleway', sans-serif;
     $headings-font-family: 'Modern Antiqua', cursive;
-    $font-size-basee: 1.25rem;
+    $font-size-base: 1.25rem;
+// silver
+    $background-color:  #a6acaf;
+
+h1 {font-style: 'Modern Antiqua', cursive;
+  font-size: 42px;
+  text-align: center;
+}
+
+h3{font-size: 'Special Elite', cursive;
+  font-size:  36px;
+  text-align: justify;
+}
+
+// Import all of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
