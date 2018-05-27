@@ -1,0 +1,12 @@
+
+// Import the things we need, like Google fonts
+@import url('https://fonts.googleapis.com/css?family=Amiri|Patua+One');
+
+// Change Bootstrap variables
+$font-family-base: 'Amiri', serif;
+$headings-font-family: 'Patua One', cursive;
+$font-size-base: 1.25rem;
+
+
+// Import all of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";

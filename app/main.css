@@ -1,0 +1,12 @@
+
+// import fonts from google fonts
+@import url('https://fonts.googleapis.com/css?family=Eater|Modern+Antiqua|Raleway|Special+Elite');
+
+// Import all of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+h1 {font-family: Eater;}
+
+p {font-family: Raleway;}
+
+.container {background-color: silver;}
