@@ -1,9 +1,15 @@
-
 // creates variables to run gulp and sass
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var runSequence = require('run-sequence');
 
+
+// function to copy files from app dir to dist dir
+//gulp.task('copy', function() {
+  //log("Copying all html files from app directory to dist directory");
+	//return gulp.src('app/**/*.html')
+		///pipe(gulp.dest('dist/'))
+//});
 
 // task to copy all htm/html files from app directory to dist directory
 gulp.task('copyhtml', function() {
