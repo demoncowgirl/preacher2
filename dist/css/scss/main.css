@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Modern+Antiqua|Raleway|Special+Elite");
+@import url("https://fonts.googleapis.com/css?family=Bevan|Raleway|Special+Elite");
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -300,7 +300,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: "Bevan", cursive;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -3839,7 +3839,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -3924,7 +3924,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;

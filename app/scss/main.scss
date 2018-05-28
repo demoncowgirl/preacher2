@@ -1,10 +1,12 @@
 // import fonts from google fonts
-@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua|Raleway|Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Bevan|Raleway|Special+Elite');
 
 // Change Bootstrap variables
+
+
+    $headings-font-family: 'Bevan', cursive;
+    $font-family: 'Special Elite', cursive;
     $font-family-base: 'Raleway', sans-serif;
-    $headings-font-family: 'Modern Antiqua', cursive;
-    $font-size-base: 1.25rem;
 
 // Import all of Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,49 @@
+
+body {
+  background-image: url("images/black_background_wood.jpg");
+	background-attachment: fixed;
+	background-position: absolute;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+h1{
+		font-style: Bevan;
+		font-size: 42px:
+		color:  # #f9e79f;
+		padding: 20px;
+}
+
+h3{
+	font-style: Special Elite;
+	font-size: 36px;
+	color: # #f9e79f;
+}
+
+.block{
+	background-color: # #f9e79f;
+	padding: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-style: Raleway;
+	color: #00000;
+}
+
+img.one{
+	width: 100%;
+	height: auto;
+}
+
+img.two{
+	width: 113%;
+	height: auto;
+}
+
+.bottom.center{
+	margin-top: 40px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+}
