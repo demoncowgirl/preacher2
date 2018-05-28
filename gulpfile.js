@@ -19,13 +19,13 @@ gulp.task('copyhtml', function() {
 
 // task to copy all css files from app directory to dist directory
 gulp.task('copycss', function() {
-	return gulp.src('app/*.css')
+	return gulp.src('app/**/*.css')
 		.pipe(gulp.dest('dist/css/'))
 });
 
 // function to change sass code to css
 gulp.task('sass', function() {
-	return gulp.src('app/*.scss')
+	return gulp.src('app/**/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/css/'))
 });

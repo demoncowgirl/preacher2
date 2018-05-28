@@ -6,96 +6,97 @@
 	<link stylesheet
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 	integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <style>
 
-body {
-  background-image: url("images/black_background_wood.jpg");
-	background-attachment: fixed;
-	background-position: absolute;
-	opacity: 0.5;
-	z-index: -1;
-}
+    body {
+      background-image: url("images/black_background_wood.jpg");
+    	background-attachment: fixed;
+    	background-position: absolute;
+    	opacity: 0.5;
+    	z-index: -1;
+    }
 
-h1{
-		font-style: Bevan;
-		font-size: 42px:
-		color:  # #f9e79f;
-		padding: 20px;
-}
+    #title{
+    		font-style: Bevan;
+    		font-size: 42px:
+    		color:  # #f9e79f;
+    		padding: 20px;
+    }
 
-h3{
-	font-style: Special Elite;
-	font-size: 36px;
-	color: # #f9e79f;
-}
+    h3{
+    	font-style: Special Elite;
+    	font-size: 36px;
+    	color: # #f9e79f;
+    }
 
-.block{
-	background-color: # #f9e79f;
-	padding: 10px;
-	margin-left: 40px;
-	margin-right: 40px;
-	font-style: Raleway;
-	color: #00000;
-}
+    .block{
+    	background-color: # #f9e79f;
+    	padding: 10px;
+    	margin-left: 40px;
+    	margin-right: 40px;
+    	font-style: Raleway;
+    	color: #00000;
+    }
 
-img.one{
-	width: 100%;
-	height: auto;
-}
+		img.one{
+    	width: 100%;
+    	height: auto;
+    }
 
-img.two{
-	width: 113%;
-	height: auto;
-}
+		img.two{
+			width: 125%;
+			height: auto;
+		}
 
-.bottom.center{
-	margin-top: 40px;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-align-content: center;
-}
+    img.three{
+    	width: 113%;
+    	height: auto;
+		}
+		.row {
+	   display: flex;
+		 align-content: center;
+	 }
+
 </style>
-
-<body>
-<class="position-relative">
-
+<div class="container position-relative">
 	<center>
-		 <h1>Jesse Custer for Constable</h1>
+		 <h1 id="title"> Jesse Custer for Constable</h1>
 				<img src = "images/preacherflag.jpg"
- 				class="rounded" width="400" alt="Jesse Custer in front of an American Flag.">
-	<center>
+ 				class="rounded" width="400" alt="Jesse Custer in preacher clothing with a bible in hand, and a cigarette in his mouth.">
 
-		<div class = "container-fluid">
-			<h3><center>No pay required.</br>
+		<h3>No pay required.</br>
 			 All Jesse Custer needs, as Constable,</br>
 			 is cigarettes, whisky and <span style="text-decoration:line-through">good</span> supernatural
-			 friends<br> to <span style="text-decoration:line-through">keep</span> help him out of trouble.</center></h3>
-		 </div>
+			 friends to keep him out of trouble.</h3>
+		</center>
+</div>
 
-		 <div class="block rounded text-justify" background-color: "#f4f6f7">
+	<div class="block text-justify">
 			<p>
 				Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
 
 				Cum horribilem walking dead resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams. Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui iam vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles undeath legionis. Alii missing oculis aliorum sicut serpere crabs nostram. Putridi braindead odores kill and infect, aere implent left four dead.
 			</p>
+	</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<img class="one rounded" src = "images/PreacherCrew.jpg">
+				</div>
+				<div class="col-md-3">
+					<img class="two rounded" src = "upsidedown.jpg">
+				</div>
+				<div class="col-md-3">
+					<img class="three rounded" src = "images/Jesse_Custer.png">
+				</div>
 		</div>
 
-				<div class="row">
-    			 <div class="col-md-3">
-      				<img class="one rounded -webkit-align-content" src = "images/PreacherCrew.jpg" alt="">
-    			</div>
-    			<div class="col-md-3">
-    					<img class="two rounded -webkit-align-content" src = "images/Jesse_Custer.png" alt="Jesse Custer in preacher clothing with a bible in hand, and a cigarette in his mouth.">
-					</div>
-				</div>
-	</div>
-</body>
+</div>
+		</body>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
