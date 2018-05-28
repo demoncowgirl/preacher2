@@ -25,7 +25,7 @@ gulp.task('copycss', function() {
 
 // function to change sass code to css
 gulp.task('sass', function() {
-	return gulp.src('app/style/*.scss')
+	return gulp.src('app/style/**/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/css/'))
 });
