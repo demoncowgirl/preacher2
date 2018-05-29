@@ -3,11 +3,9 @@
 
 // Change Bootstrap variables
 
-
-    $headings-font-family: 'Bevan', cursive;
+    $font-family: 'Bevan', cursive;
     $font-family: 'Special Elite', cursive;
-    $font-family-base: 'Raleway', sans-serif;
-
+    $font-family: 'Raleway', sans-serif;
 
 // Import all of Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";

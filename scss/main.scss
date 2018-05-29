@@ -1,0 +1,10 @@
+// Import the things we need, like Google fonts
+@import url('https://fonts.googleapis.com/css?family=Bevan|Raleway|Special+Elite');
+
+// Change Bootstrap variables
+$font-family-base: 'Raleway', sans-serif;
+$headings-font-family: 'Bevan', cursive;
+$font-family: 'Special Elite', cursive;
+
+// Import all of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
