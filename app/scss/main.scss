@@ -1,11 +1,57 @@
-// import fonts from google fonts
-@import url('https://fonts.googleapis.com/css?family=Bevan|Raleway|Special+Elite');
-
-// Change Bootstrap variables
-
-    $font-family: 'Bevan', cursive;
-    $font-family: 'Special Elite', cursive;
-    $font-family: 'Raleway', sans-serif;
-
-// Import all of Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
+
+body{
+	background-image: url("../images/black_background_wood.jpg");
+}
+
+    h1{ font-family: Bevan;
+    		font-size: 42px;
+    		color:  #f9e79f;
+				padding: 20px;
+
+    }
+
+    h3{
+    	font-family: Special Elite;
+    	font-size: 36px;
+			color: #922b21;
+
+    }
+
+		p{
+			font-family: Raleway;
+			color: #f9e79f;
+		  padding: 15px;
+		}
+
+    #block{
+			border-style: solid;
+			border-color:  #922b21;
+			border-width: 4px;
+			border-radius: 10px;
+			margin-left: 40px;
+			margin-right: 40px;
+    }
+
+		img.one{
+    	width: 100%;
+    	height: auto;
+    }
+
+		img.two{
+			width: 98%;
+			height: auto;
+		}
+
+    img.three{
+    	width: 108%;
+    	height: auto;
+		}
+
+		.row {
+	   display: flex;
+		 flex-direction: row;
+		 justify-content: center;
+		 margin-top: 20px;
+		 margin-bottom: 20px;
+	 }
