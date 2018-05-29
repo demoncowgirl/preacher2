@@ -13,19 +13,19 @@ var runSequence = require('run-sequence');
 
 // task to copy all htm/html files from app directory to dist directory
 gulp.task('copyhtml', function() {
-  return gulp.src('app/**/*.+(htm|html)')
+  return gulp.src('app/*.+(htm|html)')
 	.pipe(gulp.dest('dist/'))
  });
 
 // task to copy all css files from app directory to dist directory
 gulp.task('copycss', function() {
-	return gulp.src('app/**/*.css')
+	return gulp.src('app/*.css')
 		.pipe(gulp.dest('dist/css/'))
 });
 
 // function to change sass code to css
 gulp.task('sass', function() {
-	return gulp.src('app/**/*.scss')
+	return gulp.src('app/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/css/'))
 });
